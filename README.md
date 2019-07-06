@@ -24,19 +24,19 @@ I borrowed the core code
 from [Blind source separation using FastICA](https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html#sphx-glr-auto-examples-decomposition-plot-ica-blind-source-separation-py)
 
 ## Usage
-```python
+```
 python3 main.py --help
 ```
 will tell you everything about the usage.
 
 It is as simple as that: You provide the pictures and the seed for the mixing matrix:
-```python
+```
 python3 main.py --seed 1234 --file city.jpg bumper.jpg raisin.jpg flats.jpg
 ```
 
 ## Results
 
-```python
+```
 python3 main.py
 ```
 Defaults will be assumed, and you get
