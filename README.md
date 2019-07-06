@@ -2,7 +2,7 @@
 
 ## Motivation
 
-This is a very simple of how to use FastICA of
+This is a very simple example of how to use FastICA of
 [scikit-learn](https://scikit-learn.org/stable/index.html)
 to demix images that were linearly mixed.
 It shows how good the results can be for structured high-dimensional signals despite the fact that
