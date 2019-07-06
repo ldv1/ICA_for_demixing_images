@@ -47,7 +47,7 @@ The top row depicts the unmixed images (ground truth),
 the middle row shows the mixed images,
 and the bottom row gives the results of the demixing with ICA.
 
-The second picture from the left is inverted.
+The second picture from the left at the bottom is inverted.
 
 ## Authors
 Laurent de Vito
