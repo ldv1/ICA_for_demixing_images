@@ -16,8 +16,9 @@ Hence some images are "inverted".
 The GUI lets you invert the color map for each image separately.
 
 ## Dependencies
-You will need python 3 with [scikit-learn](https://scikit-learn.org/stable/index.html) and
-[PyQt5](https://pypi.org/project/PyQt5/).
+You will need python 3 with [scikit-learn](https://scikit-learn.org/stable/index.html),
+[PyQt5](https://pypi.org/project/PyQt5/) and
+[Matplotlib](https://matplotlib.org/).
 
 # Code
 I borrowed the core code
