@@ -2,7 +2,9 @@
 
 ## Motivation
 
-This is a very simple of how to use FastICA of sklearn to demix images that were linearly mixed.
+This is a very simple of how to use FastICA of
+[scikit-learn](https://scikit-learn.org/stable/index.html)
+to demix images that were linearly mixed.
 It shows how good the results can be for structured high-dimensional signals despite the fact that
 the underlying independence hypotheses of ICA do not respect the two-dimensional structure of the data
 (each image is stacked into a vector) and the sequential nature of the data (each signal is a random variable
@@ -18,8 +20,8 @@ You will need python 3 with [scikit-learn](https://scikit-learn.org/stable/index
 [PyQt5](https://pypi.org/project/PyQt5/).
 
 # Code
-I borrowed the core code from  
-[Blind source separation using FastICA](https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html#sphx-glr-auto-examples-decomposition-plot-ica-blind-source-separation-py)
+I borrowed the core code
+from [Blind source separation using FastICA](https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html#sphx-glr-auto-examples-decomposition-plot-ica-blind-source-separation-py)
 
 ## Usage
 ```python
@@ -37,7 +39,7 @@ python3 main.py --seed 1234 --file city.jpg bumper.jpg raisin.jpg flats.jpg
 ```python
 python3 main.py
 ```
-defaults will be assumed, and you get
+Defaults will be assumed, and you get
  
 ![Demo in 2D](https://github.com/ldv1/ICA_for_demixing_images/blob/master/defaults.png)
 
